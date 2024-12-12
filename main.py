@@ -52,7 +52,7 @@ def main():
             output_file = "Граф зависимостей.png"
             graph.render(output_file, cleanup=True)
 
-            print(f"Граф сохранен {output_file}")
+            print(f"Граф  {output_file}")
         except subprocess.CalledProcessError as e:
             print(f"Ошибка: {e}")
             sys.exit(1)
