@@ -4,6 +4,7 @@ import subprocess
 import tempfile
 from graphviz import Digraph
 
+
 def clone_repo(repo_url, temp_dir):
     subprocess.run(["git", "clone", repo_url, temp_dir], check=True)
 
@@ -52,7 +53,7 @@ def main():
             output_file = "Граф зависимостей.png"
             graph.render(output_file, cleanup=True)
 
-            print(f"Граф  {output_file}")
+            print(f"Граф сохранен {output_file}")
         except subprocess.CalledProcessError as e:
             print(f"Ошибка: {e}")
             sys.exit(1)
