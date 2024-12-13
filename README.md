@@ -11,3 +11,12 @@
 
 **Запуск:**
 для запуска программы ввод py main.py <cсылку на гитхаб>
+
+## Тестирование
+для проверки было использованно 2 репозитория
+1.https://github.com/JobsLament/shell-emulator.-python.git
+2.https://github.com/Mordecai1sg/shell-emulator.git
+
+Граф зависимости 1 репозитория
+![](Графзависимостей2.png.png)
+
